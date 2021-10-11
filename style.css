@@ -15,6 +15,11 @@ h3 {
     font-size: 16px;
 }
 
+a {
+    color: rgba(132, 95, 110, 1);
+    text-decoration: none;
+}
+
 #header {
     position: absolute;
     background-color: rgba(242, 205, 220, 1);
@@ -333,12 +338,114 @@ BUILD
 
 #flavors_step h2{
     position: relative;
-    top: -20px;
-    margin-bottom: 100px;
+    top: -25px;
+    margin-bottom: 125px;
 }
 
 span.light{
     font-weight: 100;
+}
+
+.drag_item {
+    position: absolute;
+    background-color: rgba(255, 239, 246, 1);
+    border-radius: 15px;
+    width: 135px;
+    height: 52px;
+    text-align: center;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
+}
+
+.drag_item h3 {
+    font-size: 24px;
+}
+
+#original_drag {
+    top: 37px;
+    left: 12px;
+}
+
+#bb_drag {
+    top: 37px;
+    left: 154px;
+    width: 168px;
+}
+
+#walnut_drag {
+    top: 37px;
+    left: 333px;
+    width: 165px;
+}
+
+#gf_drag {
+    top: 108px;
+    left: 12px;
+}
+
+#ps_drag {
+    top: 108px;
+    left: 154px;
+    width: 168px;
+}
+
+#cp_drag {
+    top: 108px;
+    left: 333px;
+    width: 165px;
+}
+
+#sugar_drag {
+    top: 202px;
+    left: 12px;
+    width: 112px;
+}
+
+#vanilla_drag {
+    top: 202px;
+    left: 136px;
+    width: 112px;
+}
+
+#chocolate_drag {
+    top: 202px;
+    left: 260px;
+    width: 112px;
+}
+
+#noglaze_drag {
+    top: 202px;
+    left: 384px;
+    width: 112px;
+}
+
+#drop_zone {
+    position: absolute;
+    top: 49px;
+    left: 516px;
+}
+
+#undo {
+    position: absolute;
+    top: 5px;
+    left: 635px;
+
+}
+
+#add_cart {
+    position: absolute;
+    background-color: rgba(255, 239, 246, 1);
+    border-radius: 15px;
+    border: 1px solid #845F6E;
+    width: 164px;
+    height: 75px;
+    top: 191px;
+    left: 512px;
+    text-align: center;
+}
+
+#add_cart h3 {
+    font-size: 24px;
 }
 
 
