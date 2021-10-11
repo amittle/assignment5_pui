@@ -52,7 +52,7 @@ h1 {
 
 }
 
-ul {
+#links {
     position: absolute;
     left: 200px;
     top: 80px;
@@ -150,11 +150,17 @@ li a {
     background-color: rgba(255, 239, 246, 1);
 }
 
+
+/*NONE*/
 .droptext {
     font-size: 18;
     background-color: rgba(255, 255, 255, 1);
 }
 
+
+/*
+START CART DROP
+*/
 
 #cart_drop {
     position: relative;
@@ -172,12 +178,36 @@ li a {
     font-size: 24px;
 }
 
+.drop_comp {
+    position: relative;
+    top:-20px;
+    display: inline-block;
+
+}
+
 #drop_down2 {
     position:relative;
+    width: 117px;
+    height: 40px;
+    top: -50px;
     left: 150px;
-
     background-color: rgba(255, 239, 246, 1);
 }
+
+
+/*NONE*/
+.droptext {
+    font-size: 18;
+    background-color: rgba(255, 255, 255, 1);
+}
+
+
+
+
+
+/*
+END CART DROP
+*/
 
 
 #About_Us {
@@ -229,3 +259,88 @@ li a {
 .Listing h2{
     text-align: center;
 }
+
+/*
+BUILD
+*/
+
+#sidebar {
+    position: absolute;
+    width: 264px;
+    height: 540px;
+    left: 0px;
+    top: 220px;
+
+    background-color: rgba(132, 95, 110, 0.75);
+}
+
+.build_step {
+    position: absolute;
+    background-color: rgba(255, 239, 246, 1);
+    border: 1px solid #845F6E;
+    width: 680px;
+    left: 264px;
+}
+
+#step_labels li {
+    margin-top: 10px;
+    text-align: right;
+}
+
+#info {
+    position: relative;
+    top: 15px;
+    left: 8px;
+
+}
+
+#sizes_step {
+    height: 180px;
+    top: 220px;
+}
+
+#sizes_opts {
+    position: relative;
+    top: 35px;
+
+}
+
+#sizes_opts img{
+    margin-left: 20px;
+}
+
+
+#GF_step {
+    height: 90px;
+    top: 400px;
+
+}
+
+#gf_opts {
+    position: relative;
+    top: 30px;
+    left: 65px;
+}
+
+#gf_opts img {
+    margin-right: 100px;
+}
+
+#flavors_step {
+    height: 270px;
+    top: 490px;
+}
+
+#flavors_step h2{
+    position: relative;
+    top: -20px;
+    margin-bottom: 100px;
+}
+
+span.light{
+    font-weight: 100;
+}
+
+
+
+
